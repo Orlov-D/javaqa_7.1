@@ -60,12 +60,12 @@
                         <configuration>
                             <rules>
                                 <rule>
-                                    <element>BUNDLE</element>
+                                    <!--                                    <element>StatisticService</element>-->
                                     <limits>
                                         <limit>
-                                            <counter>COMPLEXITY</counter>
+                                            <counter>BRANCH</counter>
                                             <value>COVEREDRATIO</value>
-                                            <minimum>0.10</minimum>
+                                            <minimum>1.0</minimum>
                                         </limit>
                                     </limits>
                                 </rule>
